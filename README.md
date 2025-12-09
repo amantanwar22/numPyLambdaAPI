@@ -87,15 +87,18 @@ https://xxxxxxxx.lambda-url.ap-south-1.on.aws/
 A) Default output (no query param)
 
 https://q3pjtipavhfztj2bo4h6xykq5e0shrsq.lambda-url.ap-south-1.on.aws/
+
 ![Output](./out16.png)
 
 Expected result:
 
 B) Output using query param ?number=7
 https://q3pjtipavhfztj2bo4h6xykq5e0shrsq.lambda-url.ap-south-1.on.aws/?number=7
+
 ![Output](./out17.png)
 
 
 C) Output with wrong query param
 https://q3pjtipavhfztj2bo4h6xykq5e0shrsq.lambda-url.ap-south-1.on.aws/?number=abc
+
 ![Output](./out18.png)

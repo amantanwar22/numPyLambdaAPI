@@ -35,6 +35,7 @@ Now NumPy becomes available inside the Lambda execution environment.
 
 ## 5. Lambda Function Code
 
+```python
 import json
 import numpy as np
 
@@ -69,6 +70,7 @@ def lambda_handler(event, context):
                 "error": f"Internal error: {str(e)}"
             })
         }
+```        
 
 ## 6. Create API Endpoint (Function URL)
 
